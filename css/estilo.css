@@ -1,0 +1,185 @@
+	.site{
+		overflow:hidden;
+		height: auto;
+
+	}
+		#header{
+		  /*Novamente definimos a largura da div*/
+		  width:auto;
+		  /* altura da div */
+		  height:7%;
+		  /* Cor de fundo da div */
+		  background-color:#ffffff;
+		  margin: 10px;
+		  }
+		#conteudo{
+		  /*Novamente definimos a largura da div*/
+
+		  width:auto;
+		  /* altura da div */
+		  height:70%;
+		  /* Cor de fundo da div */
+		  background-color:#0e172a;
+		}
+		#qualidades{
+		  overflow:hidden;
+		  max-height:240px;
+		  width:auto;
+		  height:auto;
+		  background-color:#ffffff;
+		  
+		  }			
+		  #opa{
+		  	position: relative;
+    color: #070707;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 55.0pt;
+    font-weight: 400;
+    line-height: 100px;
+
+		  }
+		  #criaranuncio1{
+		  width:auto;
+		  height:200px;
+		  background-color:#ffffff;
+		  text-align:center;
+		  }	
+		  #criaranuncio2{
+		  /*Novamente definimos a largura da div*/
+		  width:auto;
+		  /* altura da div */
+		  height:300px;
+		  /* Cor de fundo da div */
+		  background-color:#e3e3e3;
+		  }	
+		  #criaranuncio3{
+		  /*Novamente definimos a largura da div*/
+		  width:auto;
+		  /* altura da div */
+		  height:300px;
+		  /* Cor de fundo da div */
+		  background-color:#e3e3e3;
+		  }	
+		 #imagemfora	{
+   		 
+    	margin: 0% 0% 0% 5%;
+    	margin-top: -2%;
+    	}
+		  #cadastrese{
+		  	
+    		margin: 1.5% 30% 0% 0%;
+    	}
+    	#emnossa{
+   		
+   		max-width:465.6px;
+    	max-height:93px;
+   		width: auto;
+   		height: auto;
+    	margin: 0% 14% 0% 0%;
+    	margin-top: 2%;
+    	}
+    	#imagemfora1{
+   		
+    	margin: 0% 0% 0% 5%;
+    	margin-top: -1%;
+    	}
+		  #cadastrese1{
+		  	position: relative;
+    		margin: 1.5% 24% 0% 0%;
+    	}
+    	#emnossa1{
+   		
+   		     max-width:465.6px;
+    		max-height:93px;
+   			 width: auto;
+   			 height: auto;
+    	margin: 0% 14% 0% 0%;
+    	margin-top: 2%;
+    	}
+    	#cadastrese2{
+		  
+    		margin: 1.5% 21% 0% 0%;
+    	}
+		  #criaranuncio4{
+		  /*Novamente definimos a largura da div*/
+		  width:auto;
+		  /* altura da div */
+		  height:300px;
+		  /* Cor de fundo da div */
+		  background-color:#e3e3e3;
+		  }		
+		  #quemsomos{
+		  /*Novamente definimos a largura da div*/
+		  width:auto;
+
+		  /* altura da div */
+		  height:600px;
+		  /* Cor de fundo da div */
+		  background-color:#ffffff;
+		  }		
+		  #nossomos{
+		 
+    		margin: 10% 24% 0% 5%;
+		  }
+		   #quemsomoss{
+		  	
+    		margin: 2% 20% 0% 10%;
+
+		  }
+		   .imggg{
+		   height: 980px;
+		   width: 1111px;
+		   width: 100%;
+   		   height: 100%;
+		   margin: 0% 0% 0% 40%;
+		   background-image: url("images/img1.png");
+
+		  }
+		  #fim{
+		  /*Novamente definimos a largura da div*/
+		  width:auto;
+		  /* altura da div */
+		  height:200px;
+		  /* Cor de fundo da div */
+		  background-color:#1C1C1C;
+		  }	
+		  #contato{
+			position: relative;
+    		margin: 2% 0% 0% 3%;
+
+		  }
+		  		  #conhecaa{
+		
+    		margin: 2% 0% 0% 70%;
+
+		  }
+		  #redesss{
+		
+    		margin: -2.5% 0% 0% 40%;
+
+		  }
+		  		  #contato1{
+		
+    		margin: 1% 0% 0% 3%;
+
+		  }
+		  		  #contato2{
+			
+    		margin: 3% 0% 0% -15%;
+
+		  }
+		  #redesss1{
+	
+    		margin: 1% 10% 0% 26.5%;
+
+		  }
+		  #conhecaa1{
+			
+    		margin: -2% 0% 0% 85%;
+
+		  }
+		   #conhecaa2{
+			
+    		margin: 0% 0% 0% 85%;
+
+		  }
