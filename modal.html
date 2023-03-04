@@ -1,0 +1,49 @@
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div style="
+    
+  background-image: url('<?php echo "$pastaArquivos$i"; ?>');
+  background-size: 100%;
+  width: auto;
+  height: 100%;
+  box-shadow: 0 0em 0.2em #808080;
+
+
+    ">
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body">
+
+      <spam class="txt1"> <?php echo "$s"; ?> </spam> <br/>
+          
+    <spam class="txt2"> <?php echo "$d";?> </spam> <br/><br/><br/>
+
+    <spam class="txt2" > <img src="imagensAnuncio/tel.png" width="20px"> <?php echo "$t"; ?> </spam>
+
+    </div>
+    <div class="modal-footer">
+      <spam class="txt2"> <?php echo "$r";?> </spam>
+    </div>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+

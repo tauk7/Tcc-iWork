@@ -1,0 +1,29 @@
+create database iwork;
+
+use iwork;  
+
+ create table tb_produto(
+     id_produto int auto_increment not null primary key,
+     descricao varchar (180),
+     imagem varchar(218),
+     servico varchar (30),
+     regiao varchar (30),
+     criador varchar (30),
+     telefone char(11) not null
+ );
+	 
+   
+create database login;
+
+use login;
+
+create table usuario(
+usuario_id int auto_increment not null primary key,
+nome varchar(30),
+imagem varchar(218),
+usuario varchar(30),
+senha varchar(20) not null,
+regiao varchar (30),
+data_cadastro datetime,
+telefone char(11) not null
+)

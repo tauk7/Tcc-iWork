@@ -1,0 +1,340 @@
+html,body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+ background-color: white;
+  background-image: url(imagens/fundototal.png);
+
+  text-align: center;
+  clear: both;
+  overflow: visible;
+}
+.menu-lateral{
+    background: #DCDCDC;
+}
+.area-conteudo{
+	position: relative;
+  background: white;
+  padding: 4em auto;
+  box-shadow:0 0.1em 0.5em #808080;
+
+}
+.img-icone{
+ margin-top:-35px;
+ margin-bottom: 30px;
+}
+
+}
+.botoes{
+	position: relative;
+  background-color: #555555;
+  border: none;
+  color: white;
+  display: inline-flex;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  top: -3em;
+}
+#menu-h{
+    background-color: #267edb;
+}
+
+#menu-h ul {
+    max-width: auto;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    font-size: 18px;
+
+    padding: 15px 9.65%;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #8ab4f8;
+}
+.personal-image {
+  text-align: center;
+}
+.personal-image input[type="file"] {
+  display: none;
+}
+.personal-figure {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.personal-avatar {
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out .3s;
+}
+.personal-avatar:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out .3s;
+}
+.personal-figcaption:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .5);
+}
+.personal-figcaption > img {
+  margin-top: 32.5px;
+  width: 50px;
+  height: 50px;
+}
+.title2{
+    color: #1C1C1C;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 20pt;
+    font-weight: 10;
+    text-align: center;
+    top: 2em;
+}
+.title3{
+	position: relative;
+    color: #1C1C1C;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 12pt;
+    font-weight: 10;
+    text-align: center;
+    bottom: .5em;
+}
+
+
+
+.vertical-menu {
+  width: 400px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  font-size: 20px;
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.campos{
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+    width: 50%;
+    box-shadow:0 0.1em 0.5em #c3c3c3;
+    height: 4rem;
+    margin-left: -10em;
+  	margin-top: 3em	;
+    font-size: 1.5rem;
+    border-radius: 2px 2px 0px 0px;
+}
+.campos2{
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-shadow:0 0.1em 0.5em #c3c3c3;
+    box-sizing: border-box;
+    width: 25%;
+    height: 4rem;
+    margin-left: -9.95em;
+    border-radius: 2px 2px 0px 0px;
+    font-size: 1.5rem;
+}
+.campos3{
+	position: relative;
+	box-shadow:0 0.1em 0.5em #c3c3c3;
+    border: 0em;
+    background-color: #fff;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 2px 2px 0px 0px;
+    width: 23.5%;
+    height: 4rem;
+    margin-left: 1em;
+  	margin-top: 3em;
+    font-size: 1.5rem;
+}
+
+
+.button4 {
+    border: none;
+    padding: 20px 10px;
+    width: 400px;
+    cursor: pointer;
+    background-color: #333;
+    color: #FFF;
+    font-size: 10pt;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 2em;
+    }
+
+.telaaa{
+	background-color: #f1f3f4;
+	box-shadow:0 0.1em 0.5em #808080;
+	margin-left: 3em;
+	width: 95%;
+	border-radius: 10px;
+	height: 400px;
+}
+
+
+
+.ul1 {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+
+	position: relative;
+	}
+	
+.li1 {
+	display:inline-block;
+	list-style-type: none;
+	}
+
+.a1 {
+	display:block;
+	padding:0 10px;	
+	color:#343a40;
+	font-size:20px;
+	line-height: 60px;
+	
+}
+
+.a1:hover { 
+	background-color: #c7c7c7; 
+	text-decoration:none;
+	color:#343a40;
+}
+
+/* Hide Dropdowns by Default */
+.ul2 {
+	display: none;
+	position: absolute; 
+
+	top: 60px; /* the height of the main nav */
+
+}
+	
+/* Display Dropdowns on Hover */
+.li1:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+.li2 {
+
+	list-style-type: none;
+	float:none;
+	width: 20em;
+	right: 22.5em;
+
+	bottom: 1.2em;
+	display:list-item;
+	position: relative;
+  background-color: #fff;
+}
+
+
+
+
+.titu{
+  position: relative;
+    color: #1C1C1C;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 15.0pt;
+    font-weight: 10;
+    line-height: 40px;
+    display:inline-flex;
+    text-align: center;
+    right: -3%;
+    top:9.7em;
+}
+
+.desc{
+  position: absolute;
+    color: #696969;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 11pt;
+    word-break: break-all;
+    line-height: 1.2;
+    display:inline-flex;
+    text-align: start;
+    left:0;
+    margin-left: 0.8em;
+   margin-top: 15.8em;
+}
+
+.imagemx{
+  position: relative;
+  top: 0em;
+ left: 10.8em;
+ opacity: 0.8;
+ color: #bc1826;
+ font-weight: 900;
+ font-size: 18px;
+ border: 0;
+background: url();
+}
+
+.imagemx2{
+  position: relative;
+  top: 0.5em;
+  margin-right: 1em;
+ opacity: 0.7;
+ color: #bc1826;
+ font-weight: 900;
+ font-size: 23px;
+ border: 0;
+background: url();
+}
+.imagemx3{
+  position: absolute;
+  top: 0.5em;
+  margin-right: 0.5em;
+  right: 0;
+ opacity: 0.7;
+ color: #bc1826;
+ font-weight: 900;
+ font-size: 23px;
+ border: 0;
+background: url();
+}
+

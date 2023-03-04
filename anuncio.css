@@ -1,0 +1,68 @@
+html,body{
+  font-family: 'Open Sans', serif;
+  font-size: 11px;
+  font-weight: 300;
+ background-color: #cccccc;
+  	position: relative;
+	height: 100%; 
+	width: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+	border: 0;
+	margin: 0;
+}
+.title{
+	position: relative;
+   	color: #1C1C1C;
+   	font-family: 'Acumin Variable Concept', Arial;
+    font-size: 35.0pt;
+    font-weight: 10;
+    line-height: 40px;
+    text-align: center;
+    right: -42%;
+    top: 0.3em;
+}
+.anuncio1{
+	display: flex;
+        width: 50vw;
+        justify-content: space-around;
+        margin-top: 50px
+}
+.telaa{
+
+	  background-image: url("../images/telalista.png");
+	  background-size: 100%;
+	
+	height: 100%; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.titu{
+	position: relative;
+   	color: #1C1C1C;
+   	font-family: 'Acumin Variable Concept', Arial;
+    font-size: 15.0pt;
+    font-weight: 10;
+    line-height: 40px;
+    display:inline-flex;
+    text-align: center;
+    right: -3%;
+    top:9.7em;
+}
+
+.desc{
+  position: absolute;
+    color: #696969;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 11pt;
+    word-break: break-all;
+    line-height: 1.2;
+    display:inline-flex;
+    text-align: start;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  margin-top: 15.8em;
+}
+

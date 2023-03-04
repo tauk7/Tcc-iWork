@@ -1,0 +1,89 @@
+
+.checker:checked + .modal {
+      display: flex;
+    }
+    .modal {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      background-color: rgba(0,0,0,.4);
+    }
+    .caixamodal {
+      position: relative;
+      width: 60%;
+      height: 65%;
+      background-image: url('imagens/feito.png');
+      background-size: auto 75%;
+      background-position: center 8em;
+      background-repeat: no-repeat;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 15px;
+    }
+    .caixamodale {
+      position: relative;
+      width: 60%;
+      height: 65%;
+      background-image: url('imagens/error.png');
+      background-size: auto 75%;
+      background-position: center 6em;
+      background-repeat: no-repeat;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 15px;
+    }
+    .caixamodalee {
+      position: relative;
+      width: 60%;
+      height: 65%;
+      background-image: url('imagens/error2.png');
+      background-size: auto 75%;
+      background-position: center 5em;
+      background-repeat: no-repeat;
+      background-color: #fff;
+      border-radius: 5px;
+      padding:}
+    .label2 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: #fff;
+      margin: 0;
+      box-sizing: border-box;
+      padding: 1%;
+      width: 100%;
+      background-color: #333;
+      color: #FFF;
+      
+      display: inline-flex;
+      border-color: #367fa9;
+      
+      border-radius: 0px 0px 5px 5px;
+      cursor: pointer;
+    }
+    .textobtn{
+      position: relative;
+      text-align: center;
+      font-family: "Lucida Console", Courier, monospace;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 15pt;
+      font-weight: lighter;
+      margin: 0 auto;
+    }
+    .modal-content {
+      position: relative;
+    color: #6A6A6A;
+    font-family: 'Acumin Variable Concept', Arial;
+    font-size: 30pt;
+    border: none;
+    }
+    .modal-footer {
+      overflow: hidden;
+    }

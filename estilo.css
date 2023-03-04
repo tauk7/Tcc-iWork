@@ -1,0 +1,130 @@
+
+.navbar-logo{
+	text-align: left;
+	margin-top: -2.5em
+}
+.navbar-azul{
+	background-image: url(imagens/fundo.png);
+	height: auto;
+	width: auto;
+	padding: 50px;
+}
+.caixa{
+	margin-top: -1em;
+  padding: 60px;
+}
+.conteudo{
+	background-color: #05082c;
+	margin-top: -2.7em;
+	height: auto;
+}
+@font-face {
+  font-family: "minimal";
+  src: url(fonts/minimal.otf)
+}
+
+
+.texsobim{
+	position: relative;
+	color: white;
+	text-shadow: 1.5px 1.5px #3e5060;
+	opacity: 0.8;
+	line-height: 0.9em;
+	font-size: 4.3em;
+	margin-top: -1.8em;
+	top: -2.6em;
+	left: 0.5em;
+}
+.titulo{
+	text-align: center;
+	padding: 20px;
+}
+.etapas{
+	background-color:#e3e3e3;
+	padding:6px;
+	font-family:'Acumin Variable Concept', Arial;
+	width:auto;
+    height:auto;
+}
+#imagemfora{
+   	margin: 0% 0% 0% 8%;
+    margin-top: -5%;
+ }
+ #ola-usuario{
+   	margin: 0% 0% 0% 8%;
+    margin-top: -2%;
+ }
+
+#quemsomos{
+	margin-top:30px;
+	margin-left: 20px;
+	padding: 10px;
+}
+footer{
+	background-color:#1C1C1C;
+	position: relative;
+}
+footer h5{
+	color: #6959CD;
+	font-size: 1.4em;
+}
+
+footer p {
+    color:white;
+	font-size:0.8em;
+}
+.ul1 {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+
+	position: relative;
+	}
+	
+.li1 {
+	display:inline-block;
+	list-style-type: none;
+	}
+
+.a1 {
+	display:block;
+	padding:0 30px;	
+	color:#343a40;
+	font-size:20px;
+	line-height: 60px;
+	
+}
+
+.a1:hover { 
+	background-color: #c7c7c7; 
+	text-decoration:none;
+	color:#343a40;
+}
+
+/* Hide Dropdowns by Default */
+.ul2 {
+	display: none;
+	position: absolute; 
+
+	top: 60px; /* the height of the main nav */
+
+}
+	
+/* Display Dropdowns on Hover */
+.li1:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+.li2 {
+
+	list-style-type: none;
+	float:none;
+	width: 15em;
+	right: 14.3em;
+
+	bottom: -0.15em;
+	display:list-item;
+	position: relative;
+  background-color: #fff;
+}
